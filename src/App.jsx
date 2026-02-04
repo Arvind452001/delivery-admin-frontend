@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import Problems from './pages/Problems'
-import Quests from './pages/Quests'
 import Rewards from './pages/Rewards'
 import AddLesson from './pages/AddLesson'
 import AddProblem from './pages/AddProblem'
@@ -13,6 +12,7 @@ import Drivers from './pages/Drivers'
 import AddDriver from './pages/AddDriver'
 import Deliveries from './pages/Deliveries'
 import Orders from './pages/Orders'
+import Zones from './pages/Zones'
 
 // Create context for sidebar state
 export const SidebarContext = createContext()
@@ -37,7 +37,7 @@ function App() {
         <Route path="/customers" element={<Customers />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/problems" element={<Problems />} />
-        <Route path="/quests" element={<Quests />} />
+        <Route path="/zones" element={<Zones />} />
         <Route path="/rewards" element={<Rewards />} />
         <Route path="/deliveries" element={<Deliveries />} />
         <Route path="/AddDriver" element={<AddDriver />} />
