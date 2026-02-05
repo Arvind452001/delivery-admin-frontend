@@ -22,9 +22,9 @@ function Zones() {
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h5 className="mb-0">Zones</h5>
                   <div>
-                    <Link to="/zones/add" className="btn btn-warning">
+                    {/* <Link to="/zones/add" className="btn btn-warning">
                       New zone
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 

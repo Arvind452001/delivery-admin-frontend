@@ -20,9 +20,9 @@ function Orders() {
                 {/* Top bar */}
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h5 className="mb-0">Orders</h5>
-                  <Link to="/orders" className="btn btn-warning">
+                  {/* <Link to="/orders" className="btn btn-warning">
                     New order
-                  </Link>
+                  </Link> */}
                 </div>
 
                 {/* Filters */}

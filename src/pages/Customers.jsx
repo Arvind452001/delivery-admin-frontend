@@ -19,10 +19,10 @@ function Customers() {
 
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h5 className="mb-0">Customers</h5>
-                  <Link to="/customers" className="btn btn-primary">
+                  {/* <Link to="/customers" className="btn btn-primary">
                     <i className="bi bi-plus-lg me-1"></i>
                     New Customer
-                  </Link>
+                  </Link> */}
                 </div>
 
                 <div className="table-responsive">

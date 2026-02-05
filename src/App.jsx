@@ -9,10 +9,12 @@ import AddProblem from './pages/AddProblem'
 import AddQuest from './pages/AddQuest'
 import Customers from './pages/Customers'
 import Drivers from './pages/Drivers'
-import AddDriver from './pages/AddDriver'
 import Deliveries from './pages/Deliveries'
 import Orders from './pages/Orders'
 import Zones from './pages/Zones'
+import Notifications from './pages/Notifications'
+import Payments from './pages/Payments'
+import Reports from './pages/Reports'
 
 // Create context for sidebar state
 export const SidebarContext = createContext()
@@ -40,10 +42,10 @@ function App() {
         <Route path="/zones" element={<Zones />} />
         <Route path="/rewards" element={<Rewards />} />
         <Route path="/deliveries" element={<Deliveries />} />
-        <Route path="/AddDriver" element={<AddDriver />} />
+        <Route path="/notifications" element={<Notifications />} />
         
-        <Route path="/lessons/add" element={<AddLesson />} />
-        <Route path="/problems/add" element={<AddProblem />} />
+        <Route path="/payments" element={<Payments/>} />
+        <Route path="/reports" element={<Reports/>} />
         <Route path="/quests/add" element={<AddQuest />} />
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
       </Routes>

@@ -1,11 +1,14 @@
-import { Link } from 'react-router-dom'
-import { useSidebar } from '../App'
+import { Link } from "react-router-dom";
+import { useSidebar } from "../App";
 
 function Sidebar() {
-  const { sidebarCollapsed } = useSidebar()
+  const { sidebarCollapsed } = useSidebar();
 
   return (
-    <aside id="sidebar" className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''}`}>
+    <aside
+      id="sidebar"
+      className={`sidebar ${sidebarCollapsed ? "collapsed" : ""}`}
+    >
       <div className="p-3 sidebar-header d-flex align-items-center gap-2">
         <img src="/assets/images/logo.png" className="logo" alt="logo" />
         <div className="fw-bold ms-2">MathAdventure</div>
@@ -52,13 +55,13 @@ function Sidebar() {
           <span className="nav-text">Payments</span>
         </Link>
 
-        <Link to="/notifications" className="nav-link d-flex align-items-center">
+        <Link to="/notifications" className="nav-link">
           <i className="bi bi-bell"></i>
           <span className="nav-text">Notifications</span>
         </Link>
       </nav>
     </aside>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
