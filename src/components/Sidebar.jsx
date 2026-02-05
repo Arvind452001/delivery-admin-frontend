@@ -11,7 +11,7 @@ function Sidebar() {
     >
       <div className="p-3 sidebar-header d-flex align-items-center gap-2">
         <img src="/assets/images/logo.png" className="logo" alt="logo" />
-        <div className="fw-bold ms-2">MathAdventure</div>
+        <div className="fw-bold ms-2">DeliveryAdmin</div>
       </div>
 
       <nav className="p-3">
